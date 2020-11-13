@@ -1,1 +1,1 @@
-this repo is for my interview preparation
+The repo has solutions to leetcode problems. Sorted by their cateogory. 
