@@ -6,6 +6,12 @@ import java.util.HashMap;
 import java.util.Arrays;
 
 public class FrogJump {
+    /**
+     * If you are using java 8 which has javafx package you can use the Pair class from javafx.util Package
+     * Otherwise continue to use below
+     * @param <U>
+     * @param <V>
+     */
     class Pair <U, V> {
         private final U first;
         private final V second;
@@ -29,7 +35,7 @@ public class FrogJump {
 
         @Override
         public int hashCode() {
-            return 31 * this.first.hashCode() * this.second.hashCode();
+            return 31 * this.first.hashCode() + this.second.hashCode();
         }
     }
     private int targetPosition;
